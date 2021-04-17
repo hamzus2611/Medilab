@@ -1,0 +1,38 @@
+.buttonTemp {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+  }
+  /* .d-flex-align-items-center{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex;
+    /*align-content: flex-start;
+    justify-content: space-between;
+    width: 50%;
+  } */
+  .form-textconnect{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin-left: 30%;
+  }
+
+  .buttonTemp:hover {background-color: #1568e4}
+
+.buttonTemp:active {
+  background-color: #1568e4;
+  box-shadow: 0 5px rgb(90, 88, 88);
+  transform: translateY(4px);
+}
